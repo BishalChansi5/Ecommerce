@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "./components/HeroSection";
 import Footer1 from './components/Footer1'
-import { useProductContext } from "./context/Productcontex";
+import { useProductContext } from "./context/productcontex";
 const About = () => {
   const { myName } = useProductContext();
 
